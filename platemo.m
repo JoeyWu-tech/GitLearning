@@ -70,7 +70,8 @@ function varargout = platemo(varargin)
 % for evolutionary multi-objective optimization [educational forum], IEEE
 % Computational Intelligence Magazine, 2017, 12(4): 73-87".
 %--------------------------------------------------------------------------
-
+% meanigless words
+ 
     cd(fileparts(mfilename('fullpath')));
     addpath(genpath(cd));
     if isempty(varargin)
